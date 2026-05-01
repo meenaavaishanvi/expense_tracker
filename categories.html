@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Categories - Expense Tracker</title>
+  <link rel="stylesheet" href="css/categories.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h2 class="logo">Expense Tracker</h2>
+    <nav>
+      <a href="dashboard.html">🏠 Home</a>
+      <a href="statistics.html">📊 Statistics</a>
+      <a href="categories.html" class="active">🏷️ Categories</a>
+      <a href="profile.html">👤 Profile</a>
+    </nav>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+    <h1>Manage Categories</h1>
+
+    <div class="add-category">
+      <input type="text" id="categoryInput" placeholder="Enter category name" />
+      <button id="addCategoryBtn">Add Category</button>
+    </div>
+
+    <ul id="categoryList" class="category-list"></ul>
+  </main>
+
+</div>
+<script type="module" src="js/categories.js"></script>
+
+</body>
+</html>
