@@ -1,0 +1,63 @@
+Terms and Conditions for Expense Tracker
+
+Last Updated: January 2, 2026
+
+Welcome to [Your App Name] (“we,” “our,” or “the App”). By using our Expense Tracker application, you agree to the following terms and conditions:
+
+1. Acceptance of Terms
+
+By accessing or using the App, you agree to comply with these Terms and Conditions. If you do not agree, please do not use the App.
+
+2. Use of the App
+
+The App is designed to help you track your personal or business expenses.
+
+You agree to use the App only for lawful purposes.
+
+You are responsible for maintaining the confidentiality of any account information and passwords.
+
+3. User Data
+
+All data you enter into the App, including financial information, is your responsibility.
+
+We do not guarantee the accuracy, completeness, or reliability of your data.
+
+Your data will be stored securely, but we are not liable for any loss of data.
+
+4. Privacy
+
+Your privacy is important to us. Please review our Privacy Policy for information on how we collect, use, and protect your data.
+
+5. Intellectual Property
+
+All content, design, and features of the App are the property of [Your App Name] and are protected by copyright and other intellectual property laws.
+
+You may not reproduce, distribute, or create derivative works without our written permission.
+
+6. Prohibited Activities
+
+You agree not to:
+
+Use the App for any unlawful or fraudulent activity.
+
+Attempt to hack, reverse-engineer, or disrupt the App.
+
+Share your account in a way that violates these Terms.
+
+7. Limitation of Liability
+
+The App is provided “as-is” without warranties of any kind.
+
+We are not liable for any damages, loss of data, or financial loss arising from your use of the App.
+
+8. Modifications
+
+We may update these Terms at any time. Continued use of the App after changes indicates acceptance of the updated Terms.
+
+9. Termination
+
+We may suspend or terminate your access to the App if you violate these Terms.
+
+10. Governing Law
+
+These Terms are governed by the laws of [Your Country/State]. Any disputes will be resolved in the courts of [Your Country/State]

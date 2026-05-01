@@ -1,0 +1,167 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f9fc;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR  */
+.navbar {
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #fff !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.navbar .btn-outline-success {
+    border-color: #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color: #fff;
+    color: #4facfe;
+}
+
+.navbar .btn-success {
+    background: #fff;
+    color: #4facfe;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar .btn-success:hover {
+    background: #4facfe;
+    color: #fff;
+}
+
+/* HERO SECTION */
+#testimonial {
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    padding: 50px 0;
+}
+
+#testimonial h1 {
+    color: #222;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#testimonial p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+#testimonial .btn-primary {
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+#testimonial .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Hero Image */
+#testimonial img {
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    transition: transform 0.5s ease;
+}
+
+#testimonial img:hover {
+    transform: scale(1.05);
+}
+
+/* FEATURES */
+#features {
+    background: #fff;
+    padding: 50px 0;
+}
+
+#features h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#features h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    margin: 15px auto 0 auto;
+    border-radius: 2px;
+}
+
+#features .col {
+    background: #f1f6fb;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+#features .col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
+
+#features h4 {
+    margin-bottom: 15px;
+    color: #4facfe;
+}
+
+#features p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/*  FOOTER */
+#footer {
+    background: #222;
+    color: #ddd;
+}
+
+#footer a {
+    color: #ddd;
+    transition: 0.3s;
+}
+
+#footer a:hover {
+    color: #4facfe;
+    text-decoration: underline;
+}
+
+#footer h5, #footer h6 {
+    color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #testimonial {
+        text-align: center;
+    }
+
+    #testimonial img {
+        margin: 0 auto 30px auto;
+    }
+}  

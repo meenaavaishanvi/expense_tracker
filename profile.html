@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profile - Expense Tracker</title>
+  <link rel="stylesheet" href="css/profile.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h2 class="logo">Expense Tracker</h2>
+    <nav>
+      <a href="dashboard.html">🏠 Home</a>
+      <a href="statistics.html">📊 Statistics</a>
+      <a href="categories.html">🏷️ Categories</a>
+      <a href="profile.html" class="active">👤 Profile</a>
+    </nav>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+  <h1>Profile</h1>
+
+  <div class="profile-card">
+    <div class="avatar">👤</div>
+    <div class="profile-info">
+      <p><strong>Name:</strong> <span id="nameDisplay"></span></p>
+      <p><strong>Email:</strong> <span id="emailDisplay"></span></p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="box">
+      <h2>Edit Profile</h2>
+      <form id="profileForm">
+        <label>
+          Name:
+          <input type="text" id="name" required />
+        </label>
+        <button type="submit" class="btn">Save</button>
+      </form>
+    </div>
+
+    <div class="box">
+      <h2>Change Password</h2>
+      <form id="passwordForm">
+        <label>
+          Current Password:
+          <input type="password" id="currentPassword" required />
+        </label>
+        <label>
+          New Password:
+          <input type="password" id="newPassword" required />
+        </label>
+        <button type="submit" class="btn">Change Password</button>
+      </form>
+    </div>
+  </div>
+
+  <button id="logoutBtn" class="logout-btn">Logout</button>
+</main>
+
+</div>
+
+<script type="module" src="js/profile.js"></script>
+</body>
+</html>

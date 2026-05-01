@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Expense Tracker - Statistics</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/statistics.css" />
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="app d-flex">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <h2 class="logo mb-4">Expense Tracker</h2>
+      <nav class="nav flex-column">
+        <a href="dashboard.html" class="nav-link">🏠 Home</a>
+        <a href="statistics.html" class="nav-link active">📊 Statistics</a>
+        <a href="categories.html" class="nav-link">🏷️ Categories</a>
+        <a href="profile.html" class="nav-link">👤 Profile</a>
+      </nav>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="content p-4 flex-fill">
+      <h1 class="mb-4">Statistics Dashboard</h1>
+
+      <div class="row mb-5">
+        <!-- Expense Breakdown Table -->
+        <div class="col-md-6 mb-4">
+          <div class="table-wrapper h-100">
+            <h5>Expense Breakdown</h5>
+            <table class="table table-striped mt-3">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Total (₹)</th>
+                </tr>
+              </thead>
+              <tbody id="expenseTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Pie Chart -->
+        <div class="col-md-6 mb-4">
+          <div class="chart-wrapper h-100">
+            <h5>Expenses Pie Chart</h5>
+            <canvas id="expensePieChart" style="height:300px;"></canvas>
+            <p id="noPieData" style="display:none;">No expense data to display</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Monthly Overview Table -->
+        <div class="col-md-6 mb-4">
+          <div class="table-wrapper h-100">
+            <h5>Monthly Overview</h5>
+            <table class="table table-striped mt-3">
+              <thead>
+                <tr>
+                  <th>Month</th>
+                  <th>Income (₹)</th>
+                  <th>Expense (₹)</th>
+                  <th>Balance (₹)</th>
+                </tr>
+              </thead>
+              <tbody id="monthlyTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Bar Chart -->
+        <div class="col-md-6 mb-4">
+          <div class="chart-wrapper h-100">
+            <h5>Monthly Income vs Expense</h5>
+            <canvas id="monthlyBarChart" style="height:300px;"></canvas>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Firebase + Custom JS -->
+  <script type="module" src="js/statistics.js"></script>
+</body>
+</html>
